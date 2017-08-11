@@ -39,7 +39,7 @@ namespace AsyncTest1
         private string SlowDude()
         {
             Thread.Sleep(2000);
-            return "Ta-dam! Here I am!\r\n";
+            return "Ta-daaa! Here I am!\r\n";
         }
     }
 }
