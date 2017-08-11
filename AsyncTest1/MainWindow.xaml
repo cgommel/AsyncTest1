@@ -8,6 +8,6 @@
         Title="Async Test" Height="350" Width="525">
     <DockPanel Background="#004459">
         <Button Name="buttonAsync" Height="50" Content="Async Example" DockPanel.Dock="Top" Click="buttonAsync_Click" Opacity="0.8" ></Button>
-        <TextBox Name="textBoxResults" DockPanel.Dock="Bottom" Margin="0,10,0,0" TextWrapping="Wrap" AcceptsReturn="True" Opacity="0.8"/>
+        <TextBox Name="textBoxResults" DockPanel.Dock="Bottom" Margin="0,8,0,0" TextWrapping="Wrap" AcceptsReturn="True" Opacity="0.8"/>
     </DockPanel>
 </Window>
