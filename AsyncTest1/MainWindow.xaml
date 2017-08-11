@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AsyncTest1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="Async Test" Height="350" Width="525">
+    <DockPanel Background="#004459">
+        <Button Name="buttonAsync" Height="50" Content="Async Example" DockPanel.Dock="Top" Click="buttonAsync_Click" Opacity="0.8" ></Button>
+        <TextBox Name="textBoxResults" DockPanel.Dock="Bottom" Margin="0,10,0,0" TextWrapping="Wrap" AcceptsReturn="True" Opacity="0.8"/>
+    </DockPanel>
 </Window>
